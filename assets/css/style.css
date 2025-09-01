@@ -1,0 +1,70 @@
+h1 {
+    color: brown;
+}
+
+header>p {
+    color: white;
+}
+
+header {
+    background-color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#coffee-box {
+    background-color: brown;
+}
+
+#tea-box {
+    background-color: #6f4e37;
+}
+
+#cold-drinks-box {
+    background-color: chocolate;
+}
+
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
+
+footer {
+    background-color: #6f4e37;
+    padding: 1em;
+    text-align: center;
+}
+
+
+/* 
+		Add a child selector to this css declaration to target only 
+		<span> elements that are children of the <footer> 
+		*/
+
+footer>span {
+    color: silver;
+}
+
+
+/* 
+		Add a child selector this css declaration to target only 
+		<a> elements that are children of the <footer> 
+		*/
+
+footer>a {
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+
+/* 
+		Add a child selector this css declaration to target only 
+		<p> elements that are children of the <footer> 
+		*/
+
+footer>p {
+    color: silver;
+}
